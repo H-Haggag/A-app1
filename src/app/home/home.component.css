@@ -1,0 +1,29 @@
+#home{
+    height: 100vh;
+    background-color: #1ABC9C;
+}
+.star-line{
+    position: relative;
+}
+.star-line:before{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    border-radius: 5px;
+    background: #fff;
+    left: 30px;
+    top: 50%;
+    position: absolute;
+}
+.star-line:after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    border-radius: 5px;
+    background: #fff;
+    right: 30px;
+    top: 50%;
+    position: absolute;
+}
